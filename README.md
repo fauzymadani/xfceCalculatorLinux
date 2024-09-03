@@ -20,7 +20,7 @@ To compile, use csc:
 ```
 The compiler will create “MainWindow.exe”, which you can run using:
 ```bash
-   mono hello.exe
+   mono MainWindow.exe
 ```
 
 
