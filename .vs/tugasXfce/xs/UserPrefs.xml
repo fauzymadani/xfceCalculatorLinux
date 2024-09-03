@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{822B5C7B-6562-4285-BFE6-065FA18E72CE}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="tugasXfce/MainWindow.cs">
+    <Files>
+      <File FileName="tugasXfce/Program.cs" Line="13" Column="31" />
+      <File FileName="tugasXfce/MainWindow.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="tugasXfce" expanded="True">
+            <Node name="tugasXfce" expanded="True">
+              <Node name="MainWindow.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.tugasXfce FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

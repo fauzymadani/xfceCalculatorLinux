@@ -1,0 +1,6 @@
+/home/fauzy/Projects/tugasXfce/tugasXfce/bin/Debug/tugasXfce.exe
+/home/fauzy/Projects/tugasXfce/tugasXfce/bin/Debug/tugasXfce.pdb
+/home/fauzy/Projects/tugasXfce/tugasXfce/obj/x86/Debug/tugasXfce.csproj.AssemblyReference.cache
+/home/fauzy/Projects/tugasXfce/tugasXfce/obj/x86/Debug/tugasXfce.csproj.CoreCompileInputs.cache
+/home/fauzy/Projects/tugasXfce/tugasXfce/obj/x86/Debug/tugasXfce.exe
+/home/fauzy/Projects/tugasXfce/tugasXfce/obj/x86/Debug/tugasXfce.pdb

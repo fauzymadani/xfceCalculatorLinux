@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stetic-interface>
+  <configuration>
+    <images-root-path>..</images-root-path>
+  </configuration>
+  <import>
+    <widget-library name="../bin/Debug/tugasXfce.exe" internal="true" />
+  </import>
+  <widget class="Gtk.Window" id="MainWindow" design-size="488 300">
+    <action-group name="Default">
+      <action id="fileAction">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">file</property>
+        <property name="ShortLabel" translatable="yes">file</property>
+      </action>
+      <action id="keluarAction">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">keluar</property>
+        <property name="ShortLabel" translatable="yes">keluar</property>
+      </action>
+      <action id="keluarAction1">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">keluar</property>
+        <property name="ShortLabel" translatable="yes">keluar</property>
+      </action>
+      <action id="keluarAction2">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">keluar</property>
+        <property name="ShortLabel" translatable="yes">keluar</property>
+      </action>
+      <action id="keluarAction3">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">keluar</property>
+        <property name="ShortLabel" translatable="yes">keluar</property>
+      </action>
+      <action id="viewAction">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">view</property>
+        <property name="ShortLabel" translatable="yes">view</property>
+      </action>
+      <action id="cancelAction">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">Cancel</property>
+        <property name="ShortLabel" translatable="yes">Cancel</property>
+        <property name="StockId">gtk-cancel</property>
+      </action>
+      <action id="aboutAction">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">Donate</property>
+        <property name="ShortLabel" translatable="yes">Donate</property>
+        <property name="StockId">gtk-about</property>
+      </action>
+      <action id="selectColorAction">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">about</property>
+        <property name="ShortLabel" translatable="yes">about</property>
+        <property name="StockId">gtk-select-color</property>
+      </action>
+    </action-group>
+    <property name="MemberName" />
+    <property name="Title" translatable="yes">MainWindow</property>
+    <property name="WindowPosition">CenterOnParent</property>
+    <signal name="DeleteEvent" handler="OnDeleteEvent" />
+    <child>
+      <widget class="Gtk.Fixed" id="fixed1">
+        <property name="MemberName" />
+        <property name="HasWindow">False</property>
+        <child>
+          <widget class="Gtk.Entry" id="entry1">
+            <property name="MemberName" />
+            <property name="WidthRequest">335</property>
+            <property name="CanFocus">True</property>
+            <property name="IsEditable">True</property>
+            <property name="InvisibleChar">●</property>
+          </widget>
+          <packing>
+            <property name="X">31</property>
+            <property name="Y">44</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">0</property>
+            <property name="UseUnderline">True</property>
+          </widget>
+          <packing>
+            <property name="X">33</property>
+            <property name="Y">98</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button1">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">1</property>
+            <property name="UseUnderline">True</property>
+          </widget>
+          <packing>
+            <property name="X">69</property>
+            <property name="Y">98</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button2">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">2</property>
+            <property name="UseUnderline">True</property>
+          </widget>
+          <packing>
+            <property name="X">108</property>
+            <property name="Y">99</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button3">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">3</property>
+            <property name="UseUnderline">True</property>
+          </widget>
+          <packing>
+            <property name="X">146</property>
+            <property name="Y">101</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button4">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">4</property>
+            <property name="UseUnderline">True</property>
+          </widget>
+          <packing>
+            <property name="X">185</property>
+            <property name="Y">100</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button5">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">5</property>
+            <property name="UseUnderline">True</property>
+          </widget>
+          <packing>
+            <property name="X">33</property>
+            <property name="Y">153</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button6">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">6</property>
+            <property name="UseUnderline">True</property>
+          </widget>
+          <packing>
+            <property name="X">68</property>
+            <property name="Y">156</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button7">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">7</property>
+            <property name="UseUnderline">True</property>
+          </widget>
+          <packing>
+            <property name="X">109</property>
+            <property name="Y">157</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button8">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">8</property>
+            <property name="UseUnderline">True</property>
+          </widget>
+          <packing>
+            <property name="X">145</property>
+            <property name="Y">160</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button9">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">9</property>
+            <property name="UseUnderline">True</property>
+          </widget>
+          <packing>
+            <property name="X">183</property>
+            <property name="Y">159</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="tambah">
+            <property name="MemberName" />
+            <property name="WidthRequest">68</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">+</property>
+            <property name="UseUnderline">True</property>
+          </widget>
+          <packing>
+            <property name="X">234</property>
+            <property name="Y">101</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="kurang">
+            <property name="MemberName" />
+            <property name="WidthRequest">67</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">-</property>
+            <property name="UseUnderline">True</property>
+          </widget>
+          <packing>
+            <property name="X">234</property>
+            <property name="Y">151</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="perkalian">
+            <property name="MemberName" />
+            <property name="WidthRequest">79</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">*</property>
+            <property name="UseUnderline">True</property>
+          </widget>
+          <packing>
+            <property name="X">229</property>
+            <property name="Y">200</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="bagi">
+            <property name="MemberName" />
+            <property name="WidthRequest">171</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">/</property>
+            <property name="UseUnderline">True</property>
+          </widget>
+          <packing>
+            <property name="X">36</property>
+            <property name="Y">208</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.MenuBar" id="menubar1">
+            <property name="MemberName" />
+            <node name="__gtksharp_137_Stetic_Editor_ActionMenuBar" type="Menubar">
+              <node type="Menu" action="fileAction">
+                <node type="Menuitem" action="keluarAction" />
+              </node>
+              <node type="Menu" action="keluarAction1">
+                <node type="Menuitem" action="keluarAction2" />
+                <node type="Menuitem" action="keluarAction3" />
+              </node>
+              <node type="Menu" action="viewAction">
+                <node type="Menuitem" action="cancelAction" />
+                <node type="Menuitem" action="aboutAction" />
+                <node type="Menuitem" action="selectColorAction" />
+              </node>
+            </node>
+          </widget>
+          <packing>
+            <property name="X">8</property>
+            <property name="Y">4</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="label1">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">kalkulator made with love</property>
+          </widget>
+          <packing>
+            <property name="X">90</property>
+            <property name="Y">258</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</stetic-interface>
